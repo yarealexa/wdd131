@@ -1,0 +1,72 @@
+body{
+  background-color: white;
+  font-size: 10px;
+  font-family: "Noto Serif", serif;
+}
+#content{
+    width: 500px;
+    border: 1px solid grey;
+    margin: 70px auto ;
+    padding: 160px;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+h2{
+    color: #035f9c;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+hr{
+    border-top: 1px solid grey;
+    width: 80%;
+    margin: 0 auto 40px;
+    
+}
+.paragraph-one{
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.italicwords{
+    font-style: italic;
+    font-size: 15px;
+}
+
+ol{
+    font-size: 15px;
+    padding-left: 60px;
+    padding-right: 40px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+ol li{
+    margin-bottom: 20px;
+}
+
+.logo{
+    width: 100%;
+    
+}
+img{
+    height: auto;
+    width: 140px;
+    margin-top: 50px;
+    display: block;
+    margin: 50px auto 0;
+}
