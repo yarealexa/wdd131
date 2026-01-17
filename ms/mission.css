@@ -70,3 +70,12 @@ img{
     display: block;
     margin: 50px auto 0;
 }
+
+body.dark{
+    background-color: black;
+    color: aliceblue;
+}
+.dark #content {
+    background-color: black;
+    color:aliceblue
+}
