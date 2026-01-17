@@ -72,10 +72,10 @@ img{
 }
 
 body.dark{
-    background-color: black;
+    background-color: #222;
     color: aliceblue;
 }
 .dark #content {
-    background-color: black;
+    background-color: #222;
     color:aliceblue
 }
