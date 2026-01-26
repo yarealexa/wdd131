@@ -1,12 +1,11 @@
-// Get the menu button and nav element
-const menuBtn = document.querySelector('.menu-btn');
-const nav = document.querySelector('nav');
+let btn = document.querySelector('.menu-btn');
+let menu = document.querySelector('nav');
 
-// Add click event listener
-menuBtn.addEventListener('click', () => {
-  // Toggle the 'active' class on nav
-  nav.classList.toggle('active');
+btn.addEventListener('click', toggleMenu);
+
+function toggleMenu() {
+  menu.classList.toggle('hide');
+  btn.classList.toggle('change');
   
-  // Optional: Animate hamburger to X
-  menuBtn.classList.toggle('active');
-});
+}
+
