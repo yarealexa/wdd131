@@ -65,3 +65,5 @@ articles.forEach(book => {
     // 4. Add the new HTML string to the container
     articlesContainer.innerHTML += articleHTML;
 });
+
+articlesList.innerHTML = html 
