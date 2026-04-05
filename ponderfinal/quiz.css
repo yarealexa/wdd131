@@ -1,0 +1,108 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0; 
+    padding: 0;
+}
+
+
+header {
+    background-color: #042698;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+nav a {
+    color: #fef5da;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 1.1rem;
+    justify-content: space-around;
+    
+}
+
+#quiz-content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 { color:#042698 ; 
+    margin: 20px 0;
+}
+
+.intro {
+    margin-bottom: 25px; 
+    color: black; 
+}
+
+/* The Quiz Card */
+#quiz-card {
+    background-color: #82c2e3;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.question-text {
+    color: #fef5da;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+}
+
+/* Options Layout */
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.option-btn {
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid transparent;
+    padding: 15px;
+    border-radius: 8px;
+    color: #fef5da;
+    cursor: pointer;
+    text-align: left;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.option-btn:hover {
+    background: #042698;
+}
+
+.option-btn.selected {
+    background-color: #042698;
+    border-color: #fef5da;
+}
+
+/* Submit Button */
+.submit-btn {
+    margin-top: 25px;
+    background-color:#042698;
+    color: #fef5da;
+    border: none;
+    padding: 12px 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.right-answer {
+    margin-top: 15px;
+    font-weight: bold;
+    min-height: 1.5rem;
+}
+
